@@ -49,4 +49,6 @@ int main()
         }
         cout << players[i].getName() << "\t" << players[i].getPoints() << endl;
     }
+    
+    delete[] plaeyers;
 }
